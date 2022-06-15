@@ -25,4 +25,9 @@ class GitInfoController {
     fun getInfoAmend() : CommandDescription {
         return gitInfoRepo.getInfoAmend()
     }
+
+    @GetMapping("gitCherry-Pick")
+    fun getInfoCherryPick() : CommandDescription {
+        return gitInfoRepo.getInfoCherryPick()
+    }
 }
