@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 
 /**
  * A rest interface that provides short descriptions for some git commands.
- * Btw,, Magnus ist der Coolste
+ * Btw., Magnus ist der Coolste
  */
 @RestController
 class GitInfoController {
