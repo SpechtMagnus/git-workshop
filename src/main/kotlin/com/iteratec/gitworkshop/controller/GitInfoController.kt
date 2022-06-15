@@ -25,4 +25,9 @@ class GitInfoController {
     fun getInfoAmend() : CommandDescription {
         return gitInfoRepo.getInfoAmend()
     }
+
+    @GetMapping("gitRebase")
+    fun getInfoRebase() : CommandDescription {
+        return gitInfoRepo.getInfoRebase()
+    }
 }
